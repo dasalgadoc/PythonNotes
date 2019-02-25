@@ -28,3 +28,13 @@ if __name__ == "__main__":
         else:
             continue
             print("Print Inalcanzable")
+
+    # Iterando sobre listas
+    print()
+    print("Imprimiendo una lista =>")
+
+    myList = ['uno','dos','tres','cuatro','cinco']
+
+    for numero in myList:
+        print(numero)
+
