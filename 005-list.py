@@ -100,4 +100,18 @@ if __name__ == "__main__":
     hasta_diez.sort(reverse = True)
     print(hasta_diez)
 
+    # Uso de enumerate
+
+    print("Uso de enumerate =>")
+
+    for i, numero in enumerate(numeros):
+        print ("Numero: {}. Indice: {}".format(numero,i))
+
+    # Método Index
     
+    print("Metodo Index =>")
+
+    print(numeros.index("DOS"))
+    print(numeros.index("CUATRO"))
+    print(numeros.index("CINCO"))
+
